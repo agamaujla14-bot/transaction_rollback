@@ -1,2 +1,7 @@
 # MongoDB connection string
+# For local development: mongodb://localhost:27017/transaction_demo
+# For MongoDB Atlas (Render): mongodb+srv://username:password@cluster.mongodb.net/transaction_demo?retryWrites=true&w=majority
 MONGODB_URI=mongodb://localhost:27017/transaction_demo
+
+# Port for the Express server (Render assigns this automatically)
+PORT=3000
